@@ -1,0 +1,29 @@
+{
+  "name": "code-chat-api",
+  "version": "1.0.0",
+  "description": "Platform to help developers share coding solutions - API",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/.bin/mocha --require ./test/config './test/**/*.spec.js'",
+    "start": "./node_modules/.bin/nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxhilliard/code-chat-api.git"
+  },
+  "author": "Max Hilliard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxhilliard/code-chat-api/issues"
+  },
+  "homepage": "https://github.com/maxhilliard/code-chat-api#readme",
+  "dependencies": {
+    "chai": "4.1.2",
+    "express": "4.16.1",
+    "mocha": "3.5.3",
+    "supertest": "3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "1.12.1"
+  }
+}
