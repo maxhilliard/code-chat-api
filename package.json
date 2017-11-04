@@ -1,7 +1,7 @@
 {
   "name": "code-chat-api",
   "version": "1.0.0",
-  "description": "Platform to help developers share coding solutions - API",
+  "description": "Node crypto trading bot",
   "main": "index.js",
   "scripts": {
     "test": "NODE_ENV=test ./node_modules/.bin/mocha --require ./test/config './test/**/*.spec.js'",
