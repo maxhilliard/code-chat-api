@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maxhilliard/code-chat-api.git"
+    "url": "git@github.com:maxhilliard/crypto-trader-api.git"
   },
   "author": "Max Hilliard",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/maxhilliard/code-chat-api/issues"
+    "url": "https://github.com/maxhilliard/crypto-trader-api/issues"
   },
-  "homepage": "https://github.com/maxhilliard/code-chat-api#readme",
+  "homepage": "https://github.com/maxhilliard/crypto-trader-api#readme",
   "dependencies": {
     "chai": "4.1.2",
     "express": "4.16.1",
