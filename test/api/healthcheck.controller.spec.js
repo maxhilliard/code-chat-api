@@ -1,5 +1,5 @@
-const request = require('supertest')
-const mock    = require('../../src/app').app
+import request from 'supertest'
+import { app as mock } from '../../src/app'
 
 describe('The healthcheck controller', () => {
     it('should return a 200 statuscode if ok', (done) => {

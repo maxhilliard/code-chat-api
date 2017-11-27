@@ -1,3 +1,3 @@
-const { OK } = require('../utils/http')
+import { OK } from '../utils/http'
 
-module.exports = (req, res) => OK(res)()
+export default (req, res) => OK(res)()

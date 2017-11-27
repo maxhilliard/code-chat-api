@@ -1,3 +1,3 @@
-const http  = require('http')
+import http from 'http'
 
-module.exports = app => http.createServer(app)
+export default (app) => http.createServer(app)

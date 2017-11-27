@@ -1,10 +1,11 @@
-const router  = require('express').Router()
+import express from 'express'
+const router = express.Router()
 
-const version     = require('./version.controller')
-const healthcheck = require('./healthcheck.controller')
+import version from './version.controller'
+import healthcheck from './healthcheck.controller'
 
 router.get('/version', version)
 
 router.get('/health-check', healthcheck)
 
-module.exports = router
+export default router

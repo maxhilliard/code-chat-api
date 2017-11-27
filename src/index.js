@@ -1,4 +1,4 @@
-const startServer = require('./app').startServer
+import { startServer } from './app'
 
 startServer()
     .then(() => console.log(`🍕 Server is listening on port ${config.server.port} 🍕`))
