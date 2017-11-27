@@ -1,7 +1,7 @@
 {
   "name": "code-chat-api",
   "version": "1.0.0",
-  "description": "Platform to help developers share coding solutions - API",
+  "description": "Node crypto trading bot",
   "main": "index.js",
   "scripts": {
     "test": "NODE_ENV=test ./node_modules/.bin/mocha --require ./test/config './test/**/*.spec.js'",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maxhilliard/code-chat-api.git"
+    "url": "git@github.com:maxhilliard/crypto-trader-api.git"
   },
   "author": "Max Hilliard",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/maxhilliard/code-chat-api/issues"
+    "url": "https://github.com/maxhilliard/crypto-trader-api/issues"
   },
-  "homepage": "https://github.com/maxhilliard/code-chat-api#readme",
+  "homepage": "https://github.com/maxhilliard/crypto-trader-api#readme",
   "dependencies": {
     "chai": "4.1.2",
     "express": "4.16.1",
