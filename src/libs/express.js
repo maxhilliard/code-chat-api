@@ -1,5 +1,5 @@
-const routes = require('../api')
+import routes from '../api'
 
-module.exports = (app) => {
+export default (app) => {
     app.use('/', routes)
 }

@@ -1,4 +1,5 @@
-const { OK }      = require('../utils/http')
+import { OK } from '../utils/http'
+
 const packageJson = require('../../package.json')
 
-module.exports = (req, res) => OK(res)(packageJson.version)
+export default (req, res) => OK(res)(packageJson.version)

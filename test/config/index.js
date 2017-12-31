@@ -1,3 +1,3 @@
-const expect = require('chai').expect
+import { expect } from 'chai'
 
 global.expect = expect

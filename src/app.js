@@ -1,19 +1,20 @@
-global.config = require('./config')
+import config from './config'
+global.config = config
 
-const express = require('express')
-const app     = express()
+import express from 'express'
+const app = express()
 
-const createHttpServer = require('./libs/server')
-const server           = createHttpServer(app)
+import createHttpServer from './libs/server'
+const server = createHttpServer(app)
 
-const setUpExpress = require('./libs/express')
+import setUpExpress from './libs/express'
 setUpExpress(app)
 
-module.exports = {
-    app,
-    startServer: () => {
-        return new Promise((resolve, reject) => {
-            server.listen(config.server.port, () => resolve(app))
-        })
-    }
+
+export { app }
+
+export const startServer = () => {
+    return new Promise((resolve, reject) => {
+        server.listen(config.server.port, () => resolve(app))
+    })
 }
