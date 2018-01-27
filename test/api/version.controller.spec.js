@@ -6,9 +6,6 @@ describe('The version controller', () => {
         request(mock)
             .get('/version')
             .expect(200)
-            .end((err, res) => {
-                if (err) throw new Error(err)
-                done()
-            })
+            .end(done)
     })
 })
