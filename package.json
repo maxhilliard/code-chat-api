@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "NODE_ENV=test ./node_modules/.bin/mocha --require babel-core/register --require ./test/config './test/**/*.spec.js'",
-    "start": "./node_modules/.bin/nodemon src/index.js --exec babel-node"
+    "start": "./node_modules/.bin/nodemon src/index.js --exec babel-node",
+    "build": "./scripts/build.sh",
+    "docker:build": "npm run build && ./scripts/docker-build.sh",
+    "docker:run-dev": "./scripts/docker-run-dev.sh"
   },
   "repository": {
     "type": "git",
