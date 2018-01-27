@@ -1,0 +1,13 @@
+# Modules
+node_modules
+
+# Config
+.gitignore
+.npmrc
+
+# Tests
+test
+
+# Misc
+README.md
+Dockerfile
